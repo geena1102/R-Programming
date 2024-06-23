@@ -1,0 +1,7 @@
+s1="Welcome"
+s2="to"
+s3="R"
+s4="programming”
+newstring=paste(s1,s2,s3,s4)
+print(newstring)
+nchar(newstring)
