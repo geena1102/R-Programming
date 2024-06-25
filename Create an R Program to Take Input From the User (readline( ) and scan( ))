@@ -1,0 +1,2 @@
+n=readline("Enter your roll no :")
+print(num)
