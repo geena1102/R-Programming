@@ -1,0 +1,8 @@
+myvector=c(5,2,6,0,9)
+maxval=myvector[1]
+for(i in myvector){
+  if(i>maxval){
+    maxval=i
+  }
+}
+print(maxval)
