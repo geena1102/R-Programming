@@ -1,0 +1,6 @@
+myvector=c("Apple","Orange","Banana")
+mymatrix=matrix(c(2,4,1,6),nrow=2,ncol=2)
+mylist=c("red","green","blue")
+mynestedlist=list("fruits"=myvector,"numbers"=mymatrix,"colours"=mylist)
+print(mynestedlist)
+
