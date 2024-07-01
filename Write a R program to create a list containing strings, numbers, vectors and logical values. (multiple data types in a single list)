@@ -1,0 +1,3 @@
+mylist=c(c(2,3),"g",TRUE, 113.8)
+print(mylist)
+
