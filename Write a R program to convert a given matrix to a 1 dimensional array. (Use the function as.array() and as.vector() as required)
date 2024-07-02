@@ -1,0 +1,4 @@
+my_matrix <- matrix(1:12, nrow = 3)
+my_array <- as.array(my_matrix)
+print("1D array using as.array():")
+print(my_array)
