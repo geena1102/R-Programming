@@ -1,0 +1,5 @@
+name=c('Geena','Ammu','Alen')
+age=c(23,20,25)
+city=c('Ernakulam','Mulanthuruthy','Perumpilly')
+df=data.frame(name,age,city)
+print(df)
