@@ -1,0 +1,8 @@
+my_df <- data.frame(
+  col1 = c(10, 5, 8, 12),
+  col2 = c("A", "B", "C", "D"),
+  col3 = c(3, 1, 2, 4)
+)
+sorted_df <- my_df[order(-my_df$col1, my_df$col2), ]
+print(sorted_df)
+
