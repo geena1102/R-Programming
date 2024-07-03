@@ -1,0 +1,11 @@
+my_df <- data.frame(
+  col1 = c(10, NA, 8, 12),
+  col2 = c(NA, "A", "C", NA),
+  col3 = c(3, 1, NA, 4)
+)
+print("Original data frame:")
+print(my_df)
+my_df[is.na(my_df)] <- 3
+print("Data frame after replacing NA values with 3:")
+print(my_df)
+ 
