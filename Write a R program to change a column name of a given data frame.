@@ -1,0 +1,8 @@
+my_df <- data.frame(
+  Col1= c(100, 120, 150),
+  Col2= c(36, -33, 14),
+  Col3= c(136, 87, 164)
+)
+colnames(my_df) <- c("score", "mark", "rank")
+print(my_df)
+
